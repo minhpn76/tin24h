@@ -1,0 +1,106 @@
+@font-face {
+    src: url("fonts/NotoSerif-Regular.ttf");
+    font-family: NotoText;
+}
+
+.w-inherit {
+    width: inherit !important;
+}
+
+.header .header-container .top-menu li a {
+    letter-spacing: -1px
+}
+
+.box_highlight_feeds .block-bottom ul .fa-arrow-right.slick-arrow {
+    background: #85c652;
+}
+
+a {
+    color: #121e28;
+}
+
+.hot-search-list .hot-search-block .hot-search-item {
+    font-family: 'NotoText';
+}
+
+.block-orange ul .fa-arrow-right.slick-arrow {
+    background: #FB8200 !important;
+}
+
+.block-orange ul .slick-arrow:hover {
+    background: #FB8200 !important;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.last .on-mobile {
+    display: block !important;
+}
+
+.title--wrap a p:hover {
+    color: red;
+}
+
+.category-item {
+    display: inline-table;
+}
+
+.form-mobile-search .inp-mobile-search::placeholder {
+    color: #fff;
+}
+
+.post #post-content .post-content p {
+    font-family: 'NotoText';
+}
+
+figure {
+    display: table;
+}
+
+
+figcaption {
+    vertical-align: bottom;
+    background: #ECEDEE;
+    font-family: 'NotoText';
+    padding: 7px 7px 7px 20px;
+    border-left: 8px solid #85C652;
+    margin-top: 0 !important;
+}
+
+.post-share-fb {
+    background: #0090E1;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 35px;
+    display: none;
+}
+
+.post-share-fb .action a {
+    width: 100%;
+    color: #fff;
+}
+
+.post-share-fb .action {
+    position: relative;
+}
+
+.post-share-fb .action a i {
+    position: absolute;
+    left: 20px;
+    top: 1px;
+    font-size: 20px;
+}
+
+.related_box > div {
+    display: inline-block;
+}
+
+@media screen and (max-width: 768px){
+    .ads-right {
+        display: none;
+    }
+}
